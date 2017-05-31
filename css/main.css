@@ -85,7 +85,7 @@ header{
   font-size: 14px;
 }
 
-/*section 2*/
+/*section 1*/
 #services{
   background-color: #F17C72;
   text-align: center;
@@ -97,6 +97,45 @@ header{
   display: inline-block;
   width: 30%;
   margin-top: 63px;
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: rgba(225 225 225 0);
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+/*section 2*/
+#services2{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 70px 7px;
+}
+
+#img2{
+  background-image: url(../assets/images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  width: 550px;
+  margin: 0 auto;
+  }
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: rgba(225 225 225 0);
 }
 
 .text-services{
@@ -111,4 +150,56 @@ footer{
   background-color: #373b47;
   color: white;
   padding-top: 7px;
+}
+
+/*Ejercicio guiado*/
+.box-services{
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+
+/*Modal*/
+#box-services-modal{
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5,
+#box-services-modal .modal-body h6{
+  color: whitesmoke;
+}
+#box-services-modal .modal-body h5{
+  font-size: 2em;
+}
+#box-services-modal .modal-body h6{
+  font-size: 1em;
+}
+
+#box-services-modal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
 }
