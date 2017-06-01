@@ -127,20 +127,11 @@ header{
   margin: 0 auto;
   }
 
-.box-services{
-  display: inline-block;
-  width: 30%;
-  margin-top: 63px;
-  cursor: pointer;
-}
-
-.box-services:hover{
-  background-color: rgba(225 225 225 0);
-}
-
-.text-services{
-  font-size: 35px;
-  letter-spacing: 2px;
+.img3 {
+  	margin: 19px 0 19px 0;
+    width: 231px;
+    height: auto;
+    padding: 15px;
 }
 
 /*footer*/
@@ -163,7 +154,7 @@ footer{
 
 /*Modal*/
 #box-services-modal{
-  background-color: rgba(240,30,80,0.85);
+  background-color: #F17C72;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -178,8 +169,7 @@ footer{
   padding: 100px;
 }
 
-#box-services-modal .modal-body h5,
-#box-services-modal .modal-body h6{
+#box-services-modal .modal-body h5, #box-services-modal .modal-body h6{
   color: whitesmoke;
 }
 #box-services-modal .modal-body h5{
