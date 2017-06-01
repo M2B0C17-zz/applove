@@ -212,15 +212,17 @@ footer{
   padding: 100px;
 }
 
-#modalDosBox .modal-body2 h5, #modalDosBox .modal-body2 h6{
+#modalDosBox .modal-body2 p, #modalDosBox .modal-body2 p{
   color: whitesmoke;
 }
 
-#modalDosBox .modal-body2 h5{
+#modalDosBox .modal-body2 p{
   font-size: 2em;
 }
-#modalDosBox .modal-body2 h6{
-  font-size: 1em;
+
+#modalDosBox .modal-body2 .img3{
+  width: auto;
+  height: 400px;
 }
 
 #modalDosBox .close{
@@ -231,7 +233,7 @@ footer{
 }
 
 #modalDosBox .close img{
-  width: 60px;
+  width: 80px;
 }
 
 .hide2{
