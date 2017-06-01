@@ -205,22 +205,22 @@ footer{
   left: 0;
 }
 
-#modalDosBox .modal-body2{
+#modalDosBox .modal-cuerpito2{
   width: 60%;
   margin: 0 auto;
   text-align: center;
   padding: 100px;
 }
 
-#modalDosBox .modal-body2 p, #modalDosBox .modal-body2 p{
+#modalDosBox .modal-cuerpito2 p, #modalDosBox .modal-cuerpito2 p{
   color: whitesmoke;
 }
 
-#modalDosBox .modal-body2 p{
+#modalDosBox .modal-cuerpito2 p{
   font-size: 2em;
 }
 
-#modalDosBox .modal-body2 .img3{
+#modalDosBox .modal-cuerpito2 .img3{
   width: auto;
   height: 400px;
 }
