@@ -132,6 +132,7 @@ header{
     width: 231px;
     height: auto;
     padding: 15px;
+    cursor: pointer;
 }
 
 /*footer*/
@@ -191,5 +192,48 @@ footer{
 }
 
 .hide{
+  display: none;
+}
+
+/* Modal 2 */
+#modalDosBox{
+  background-color: #F17C72;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#modalDosBox .modal-body2{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#modalDosBox .modal-body2 h5, #modalDosBox .modal-body2 h6{
+  color: whitesmoke;
+}
+
+#modalDosBox .modal-body2 h5{
+  font-size: 2em;
+}
+#modalDosBox .modal-body2 h6{
+  font-size: 1em;
+}
+
+#modalDosBox .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#modalDosBox .close img{
+  width: 60px;
+}
+
+.hide2{
   display: none;
 }
